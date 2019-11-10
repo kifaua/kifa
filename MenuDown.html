@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MenuDown</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+<!-------наспадающее меню-->
+<div class="dropdown">
+    <button class="btn btn-default" id="dropdownMenu"
+            type="button" data-target="dropdown">
+        меню <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+        <li><a href="#">Сепулька</a></li>
+        <li><a href="#">Сепулькарии</a></li>
+        <li><a href="#">Сепуление</a></li>
+    </ul>
+</div>
+<br>
+<!--разделить-->
+<div class="dropup">
+    <button class="btn btn-default" id="dropdown_menu"
+            type="button" data-toggle="dropdown">
+        меню <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+        <li><a href="#"> сепулька</a></li>
+        <li class="divider"></li>
+        <li><a href="#"> сепулькарии</a></li>
+        <li class="divider"></li>
+        <li><a href="#"> сепуление</a></li>
+        <li class="divider"></li>
+    </ul>
+</div>
+<br>
+<!-----Блокировка пункт меню--->
+<div class="dropdown">
+    <!-------Открытое меню class="dropdown"--->
+    <button class="btn btn-default"
+            id="dropdownmenu1" type="button"
+            data-toggle="dropsown">
+        меню  <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-right">
+        <li class="disabled"><a href="#">Сепулька</a></li>
+        <li class="divider"></li>
+        <li><a href="#">сепулькарии</a></li>
+        <li><a href="#">сепульние</a></li>
+    </ul>
+</div>
+<br>
+<!-------кнопка со стрелкой-->
+<div class="dropdown btn-group">
+    <button class="btn btn-default disabled"
+            id="dropdownMenu2" type="button">меню</button>
+    <button type="button" class="btn
+    btn-default dropdown-toggle" data-toggle="dropdown">
+        <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-right">
+        <li></li>
+    </ul>
+</div>
+</body>
+</html>
