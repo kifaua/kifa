@@ -18,7 +18,7 @@ h4 {
     margin-bottom: 30px;
 }
 .jumbotron {
-    background-color: #20f420;
+    background-color: #f49f97;
     color: #fff;
     padding: 100px 25px;
     font-family: Montserrat, sans-serif;
@@ -49,13 +49,13 @@ h4 {
 }
 .carousel-control.right, .carousel-control.left {
     background-image: none;
-    color: #20f420;
+    color: #f49f97;
 }
 .carousel-indicators li {
-    border-color: #20f420;
+    border-color: #f49f97;
 }
 .carousel-indicators li.active {
-    background-color: #20f420;
+    background-color: #f49f97;
 }
 .item h4 {
     font-size: 19px;
@@ -68,7 +68,7 @@ h4 {
     font-style: normal;
 }
 .panel {
-    border: 1px solid #20f420;
+    border: 1px solid #f49f97;
     border-radius:0 !important;
     transition: box-shadow 0.5s;
 }
@@ -82,7 +82,7 @@ h4 {
 }
 .panel-heading {
     color: #fff !important;
-    background-color: #20f420 !important;
+    background-color: #f49b97 !important;
     padding: 25px;
     border-bottom: 1px solid transparent;
     border-top-left-radius: 0;
@@ -107,7 +107,7 @@ h4 {
 }
 .navbar {
     margin-bottom: 0;
-    background-color: #20f420;
+    background-color: #f49f97;
     border: 0;
     font-size: 12px !important;
     letter-spacing: 4px;
